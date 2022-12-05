@@ -1,0 +1,3 @@
+setEnv HTTP_EMAIL "noreply@zembra-rent-car.com"
+setEnv HTTP_PASSWORD "zembra@2022"
+setEnv HTTP_COMPANY_EMAIL "atri.omar.2003@gmail.com"
