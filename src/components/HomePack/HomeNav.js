@@ -27,13 +27,7 @@ function HomeNav() {
         </div>
       </Link>
       <div className="scr1000:w-auto w-full justify-between flex gap-5 items-center">
-        <FontAwesomeIcon
-          icon={faBars}
-          className="scr800:hidden block cursor-pointer"
-          color="white"
-          size="2xl"
-          onClick={() => setMobileNavbarOpen(true)}
-        />
+        <FontAwesomeIcon icon={faBars} className="scr800:hidden block cursor-pointer" color="white" size="2xl" onClick={() => setMobileNavbarOpen(true)} />
         <ul className="scr800:flex hidden gap-5 items-center text-white font-cera text-xl font-bold">
           <li className="">
             <Link to="/">Accueil</Link>
